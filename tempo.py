@@ -2,6 +2,7 @@ import requests
 
 City_name = input('Digite a sua cidade: ')
 
+#Utilize a sua API do site do OpenWeather 
 API_KEY = "98d38496801a7ab800fd108be3843458"
 
 link = f'https://api.openweathermap.org/data/2.5/weather?q={City_name}&appid={API_KEY}&lang=pt_br'
